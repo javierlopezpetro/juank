@@ -1,0 +1,124 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #004466;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header p {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.div-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+div-img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.img-1{
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+
+nav ul {
+    list-style: none;
+    background-color: #006699;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section-perfil{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.div-info{
+    
+    width: 500px;
+    
+
+}
+
+.div-perfil-img{
+    text-align: center;  
+    
+    width: 500px;
+    
+}
+
+.perfil-img{
+    border-radius: 20px;
+}
+
+section {
+    padding: 30px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section h2 {
+    color: #004466;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+section ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #004466;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
